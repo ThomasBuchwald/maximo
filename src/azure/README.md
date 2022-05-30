@@ -37,8 +37,6 @@ az group create --location "North Europe" --name OCP-MAS-DEVTEST
 
 az deployment group create --resource-group OCP-MAS-DEVTEST --template-file bootstrap.bicep --parameters parameters.json
 
-![image](https://user-images.githubusercontent.com/37215539/171013054-c93630f3-fd7a-4451-ac56-df34e01a4ebb.png)
-
 ```
 
 After the deployment is finished, you can SSH into the JumpBoxVM and look in the directory: `/tmp/OCPInstall/QuickCluster` for install artifacts. For logs, you can look at: `cat /var/log/cloud-init-output.log`
