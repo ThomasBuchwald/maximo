@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "location": {
-            "value": "eastus"
+            "value": "North Europe"
         },
         "networkSecurityGroupRules": {
             "value": [
@@ -32,16 +32,16 @@
             "value": "Standard_B2ms"
         },
         "controlMachineSize": {
-            "value": "Standard_D8s_v3"
+            "value": "Standard_D4s_v4"
         },
         "numControlReplicas": {
             "value" : "3"
         },
         "workerMachineSize": {
-            "value": "Standard_D8s_v3"
+            "value": "Standard_E4s_v4"
         },
         "numWorkerReplicas": {
-            "value" : "9"
+            "value" : "3"
         },
         "adminUsername": {
             "value": "azureuser"
@@ -53,28 +53,28 @@
             "value": "maximo-vnet"
         },
         "vnetAddressPrefix": {
-            "value": "10.0.0.0/16"
+            "value": "20.0.0.0/16"
         },
         "subnetControlNodePrefix": {
-            "value": "10.0.0.0/24"
+            "value": "20.0.0.0/24"
         },
         "subnetControlNodeName": {
             "value": "control"
         },
         "subnetEndpointsPrefix": {
-            "value": "10.0.1.0/24"
+            "value": "20.0.1.0/24"
         },
         "subnetEndpointsName": {
             "value": "endpoints"
         },
         "subnetWorkerNodePrefix": {
-            "value": "10.0.2.0/23"
+            "value": "20.0.2.0/23"
         },
         "subnetWorkerNodeName": {
             "value": "workers"
         },
         "subnetBastionPrefix": {
-            "value": "10.0.4.0/27"
+            "value": "20.0.4.0/27"
         },
         "subnetBastionName": {
             "value": "AzureBastionSubnet"
