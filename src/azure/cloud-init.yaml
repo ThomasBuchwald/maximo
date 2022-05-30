@@ -42,6 +42,7 @@ runcmd:
     export azureFilesCSIVersion="${azureFilesCSIVersion}"
     export masChannel="${masChannel}"
     export branchName="${branchName}"
+    export repoName="${repoName}"
     export nvidiaOperatorChannel="${nvidiaOperatorChannel}"
     export nvidiaOperatorCSV="${nvidiaOperatorCSV}"
  - [ wget, -nv, "https://raw.githubusercontent.com/${repoName}/maximo/${branchName}/src/installers/install_config.sh", -O, /tmp/install_config.sh ]
