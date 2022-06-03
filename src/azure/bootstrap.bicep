@@ -157,7 +157,6 @@ module sidecarVM 'jumpbox.bicep' = {
     nvidiaOperatorChannel: nvidiaOperatorChannel
     nvidiaOperatorCSV: nvidiaOperatorCSV
     branchName: branchName
-    repoName: repoName
   }
   dependsOn: [
     network
