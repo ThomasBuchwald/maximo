@@ -31,7 +31,7 @@ metadata:
   name: $clusterName
 networking:
   clusterNetwork:
-  - cidr: 10.129.0.0/14
+  - cidr: 10.128.0.0/14
     hostPrefix: 23
   machineNetwork:
   - cidr: 10.10.0.0/16
