@@ -32,7 +32,7 @@
             "value": "Standard_D2as_v4"
         },
         "controlMachineSize": {
-            "value": "Standard_D2as_v4"
+            "value": "Standard_D4as_v4"
         },
         "numControlReplicas": {
             "value" : "3"
