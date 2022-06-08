@@ -29,16 +29,16 @@
             "value": "Premium_LRS"
         },
         "virtualMachineSize": {
-            "value": "Standard_B2ms"
+            "value": "Standard_D2as_v4"
         },
         "controlMachineSize": {
-            "value": "Standard_D4s_v4"
+            "value": "Standard_D2as_v4"
         },
         "numControlReplicas": {
             "value" : "3"
         },
         "workerMachineSize": {
-            "value": "Standard_E4s_v4"
+            "value": "Standard_E4as_v4"
         },
         "numWorkerReplicas": {
             "value" : "3"
@@ -53,28 +53,28 @@
             "value": "maximo-vnet"
         },
         "vnetAddressPrefix": {
-            "value": "20.0.0.0/16"
+            "value": "10.10.0.0/16"
         },
         "subnetControlNodePrefix": {
-            "value": "20.0.0.0/24"
+            "value": "10.10.0.0/24"
         },
         "subnetControlNodeName": {
             "value": "control"
         },
         "subnetEndpointsPrefix": {
-            "value": "20.0.1.0/24"
+            "value": "10.10.1.0/24"
         },
         "subnetEndpointsName": {
             "value": "endpoints"
         },
         "subnetWorkerNodePrefix": {
-            "value": "20.0.2.0/23"
+            "value": "10.10.2.0/23"
         },
         "subnetWorkerNodeName": {
             "value": "workers"
         },
         "subnetBastionPrefix": {
-            "value": "20.0.4.0/27"
+            "value": "10.10.4.0/27"
         },
         "subnetBastionName": {
             "value": "AzureBastionSubnet"
