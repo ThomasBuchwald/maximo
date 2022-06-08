@@ -44,7 +44,7 @@ spec:
           resourceGroup: $clusterInstanceName-rg
           kind: AzureMachineProviderSpec
           location: $deployRegion
-          vmSize: Standard_D8s_v3
+          vmSize: Standard_D8as_v4
           image:
             offer: ''
             publisher: ''
