@@ -53,7 +53,6 @@ param masChannel string
 param nvidiaOperatorChannel string
 param nvidiaOperatorCSV string
 param branchName string
-param repoName string
 
 //create dns zone
 module dnsZone 'dns.bicep' = {
