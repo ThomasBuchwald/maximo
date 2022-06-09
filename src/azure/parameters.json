@@ -86,7 +86,7 @@
             "value": "maximoBastionHost"
         },
         "openshiftVersion":{
-            "value": "4.8.22"
+            "value": "4.8.35"
         },
         "azureFilesCSIVersion":{
             "value": "v1.12.0"
