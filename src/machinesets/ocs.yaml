@@ -64,6 +64,6 @@ spec:
           subnet: $subnetWorkerNodeName
           userDataSecret:
             name: worker-user-data
-          vmSize: Standard_D2as_v4
+          vmSize: Standard_D8as_v4
           vnet: $vnetName
           zone: "$zone"
