@@ -38,7 +38,7 @@
             "value" : "3"
         },
         "workerMachineSize": {
-            "value": "Standard_E4as_v4"
+            "value": "Standard_E8as_v4"
         },
         "numWorkerReplicas": {
             "value" : "3"
